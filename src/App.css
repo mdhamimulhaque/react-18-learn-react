@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* ===================== */
+.dynamic_Friends{
+  padding: 20px;
+  background-color: aquamarine;
+  border: 2px solid palegreen;
+  margin-top: 10px;
+}
