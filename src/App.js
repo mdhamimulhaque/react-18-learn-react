@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
 // import Props from './components/Props';
-// import StateLearn from './components/StateLearn';
+import StateLearn from './components/StateLearn';
 // import Event from './components/Event';
 // import Parent from './components/PassDataParentChild/childToParentPassArgument/Parent';
-import DynamicData from './components/DynamicData';
+// import DynamicData from './components/DynamicData';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
 
       {/* <======== state  use learn ========>*/}
       {/* ------------------------------------- */}
-      {/* <StateLearn /> */}
+      <StateLearn />
 
 
       {/* <========events learn ========>*/}
@@ -36,7 +36,7 @@ function App() {
 
       {/* <======= dynamic data ========> */}
       {/* ------------------------------- */}
-      <DynamicData />
+      {/* <DynamicData /> */}
 
     </div>
   );
