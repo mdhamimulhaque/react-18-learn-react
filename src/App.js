@@ -7,7 +7,8 @@ import './App.css';
 // import Parent from './components/PassDataParentChild/childToParentPassArgument/Parent';
 // import DynamicData from './components/DynamicData';
 // import ConditionalRendaring from "./components/ConditionalRendaring.jsx";
-import Form from './components/Forms/Form';
+// import Form from './components/Forms/Form';
+import ImportExport from './components/ImportExport/ImportExport';
 
 function App() {
   return (
@@ -52,7 +53,11 @@ function App() {
 
       {/* <======= Form controlling ========> */}
       {/* ------------------------------- */}
-      <Form />
+      {/* <Form /> */}
+
+      {/* <======= export emport ========> */}
+      {/* ------------------------------- */}
+      <ImportExport />
 
     </div>
   );
