@@ -1,0 +1,93 @@
+[
+    {
+        "_id": "632dd9ef1a2f44de980008e7",
+        "isActive": false,
+        "balance": "$1,277.54",
+        "picture": "http://placehold.it/32x32",
+        "age": 28,
+        "eyeColor": "green",
+        "name": "Paul Hardin",
+        "gender": "male",
+        "company": "ZUVY",
+        "email": "paulhardin@zuvy.com",
+        "phone": "+1 (818) 571-3980"
+    },
+    {
+        "_id": "632dd9ef004cea2ca4cf91a5",
+        "isActive": false,
+        "balance": "$2,939.10",
+        "picture": "http://placehold.it/32x32",
+        "age": 29,
+        "eyeColor": "brown",
+        "name": "Danielle Jenkins",
+        "gender": "female",
+        "company": "AQUASSEUR",
+        "email": "daniellejenkins@aquasseur.com",
+        "phone": "+1 (986) 421-3175"
+    },
+    {
+        "_id": "632dd9efaee1100acba221ae",
+        "isActive": false,
+        "balance": "$3,498.98",
+        "picture": "http://placehold.it/32x32",
+        "age": 39,
+        "eyeColor": "green",
+        "name": "Mccarthy Calderon",
+        "gender": "male",
+        "company": "DADABASE",
+        "email": "mccarthycalderon@dadabase.com",
+        "phone": "+1 (802) 568-3902"
+    },
+    {
+        "_id": "632dd9efeaf834ee2e039f54",
+        "isActive": false,
+        "balance": "$3,559.60",
+        "picture": "http://placehold.it/32x32",
+        "age": 25,
+        "eyeColor": "green",
+        "name": "Cornelia Manning",
+        "gender": "female",
+        "company": "COMBOGENE",
+        "email": "corneliamanning@combogene.com",
+        "phone": "+1 (861) 477-3096"
+    },
+    {
+        "_id": "632dd9eff22489675e6b032d",
+        "isActive": false,
+        "balance": "$3,610.38",
+        "picture": "http://placehold.it/32x32",
+        "age": 22,
+        "eyeColor": "green",
+        "name": "Alisha Wyatt",
+        "gender": "female",
+        "company": "REVERSUS",
+        "email": "alishawyatt@reversus.com",
+        "phone": "+1 (889) 420-2940"
+    },
+    {
+        "_id": "632dd9ef37f9d6e73c217a29",
+        "isActive": true,
+        "balance": "$2,156.37",
+        "picture": "http://placehold.it/32x32",
+        "age": 24,
+        "eyeColor": "blue",
+        "name": "Kemp Burns",
+        "gender": "male",
+        "company": "INSURON",
+        "email": "kempburns@insuron.com",
+        "phone": "+1 (873) 419-2489"
+    },
+    {
+        "_id": "632dd9ef1777461f745dc7ac",
+        "isActive": true,
+        "balance": "$2,037.81",
+        "picture": "http://placehold.it/32x32",
+        "age": 35,
+        "eyeColor": "blue",
+        "name": "Shirley Arnold",
+        "gender": "female",
+        "company": "ZILLACTIC",
+        "email": "shirleyarnold@zillactic.com",
+        "phone": "+1 (827) 600-2074"
+    }
+]

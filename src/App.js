@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import FetchOwnJSON from './components/FetchOwnJSON/FetchOwnJSON';
 // import ApiDataLoad from './components/ApiDataLoad';
 // import Props from './components/Props';
 // import StateLearn from './components/StateLearn';
@@ -8,7 +9,7 @@ import './App.css';
 // import DynamicData from './components/DynamicData';
 // import ConditionalRendaring from "./components/ConditionalRendaring.jsx";
 // import Form from './components/Forms/Form';
-import ImportExport from './components/ImportExport/ImportExport';
+// import ImportExport from './components/ImportExport/ImportExport';
 
 function App() {
   return (
@@ -57,7 +58,11 @@ function App() {
 
       {/* <======= export emport ========> */}
       {/* ------------------------------- */}
-      <ImportExport />
+      {/* <ImportExport /> */}
+
+      {/* <======= load custom data ========> */}
+      {/* ------------------------------- */}
+      <FetchOwnJSON />
 
     </div>
   );
