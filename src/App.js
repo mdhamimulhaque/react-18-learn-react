@@ -1,10 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
+// import ApiDataLoad from './components/ApiDataLoad';
 // import Props from './components/Props';
-import StateLearn from './components/StateLearn';
+// import StateLearn from './components/StateLearn';
 // import Event from './components/Event';
 // import Parent from './components/PassDataParentChild/childToParentPassArgument/Parent';
 // import DynamicData from './components/DynamicData';
+// import ConditionalRendaring from "./components/ConditionalRendaring.jsx";
+import Form from './components/Forms/Form';
 
 function App() {
   return (
@@ -22,7 +25,7 @@ function App() {
 
       {/* <======== state  use learn ========>*/}
       {/* ------------------------------------- */}
-      <StateLearn />
+      {/* <StateLearn /> */}
 
 
       {/* <========events learn ========>*/}
@@ -37,6 +40,19 @@ function App() {
       {/* <======= dynamic data ========> */}
       {/* ------------------------------- */}
       {/* <DynamicData /> */}
+
+
+      {/* <======= Api data Load & use ========> */}
+      {/* ------------------------------- */}
+      {/* <ApiDataLoad /> */}
+
+      {/* <======= Conditional rendering ========> */}
+      {/* ------------------------------- */}
+      {/* <ConditionalRendaring /> */}
+
+      {/* <======= Form controlling ========> */}
+      {/* ------------------------------- */}
+      <Form />
 
     </div>
   );
