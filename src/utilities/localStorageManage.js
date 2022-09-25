@@ -12,8 +12,18 @@ const setDataToLocalStorage = (id) => {
 
     // =============> advanced way <=================
     //===============================================
-    const shoppingCart = {};
+    let shoppingCart;
 
+    // ---> get items'
+    const storeCart = localStorage.getItem('shopping-cart');
+    if (storeCart) {
+        shoppingCart = JSON.parse(storeCart)
+    } else {
+        shoppingCart = {};
+    }
+
+
+    // ---> set items
     const quantity = shoppingCart[id];
     if (quantity) {
         const newQuantity = quantity + 1;
