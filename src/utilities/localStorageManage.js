@@ -36,7 +36,6 @@ const setDataToLocalStorage = (id) => {
 
 
 
-
 // =====> remove from local storage
 const removeDataFromLocalStorage = (id) => {
     const storeCart = localStorage.getItem('shopping-cart');
@@ -49,7 +48,22 @@ const removeDataFromLocalStorage = (id) => {
     }
 }
 
+
+
+
+// =======> reduce handle
+const getTotalPrice = (products) => {
+    const reducer = (previous, current) => previous + +current.balance;
+    const total = products.reduce(reducer, 0)
+    return total
+
+}
+
+
+
+
 export {
     setDataToLocalStorage,
-    removeDataFromLocalStorage
+    removeDataFromLocalStorage,
+    getTotalPrice as totalPrice
 }

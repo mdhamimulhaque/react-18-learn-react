@@ -10,7 +10,7 @@ const ApiDataLoad = () => {
             .then(data => setUsers(data))
     }, [])
 
-    console.log(users)
+
     return (
         <div>
             <h2>User Data {users.length}</h2>

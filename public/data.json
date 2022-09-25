@@ -2,7 +2,7 @@
     {
         "_id": "632dd9ef1a2f44de980008e7",
         "isActive": false,
-        "balance": "1,277.54",
+        "balance": "1000",
         "picture": "http://placehold.it/32x32",
         "age": 28,
         "eyeColor": "green",
@@ -15,7 +15,7 @@
     {
         "_id": "632dd9ef004cea2ca4cf91a5",
         "isActive": false,
-        "balance": "2,939.10",
+        "balance": "300",
         "picture": "http://placehold.it/32x32",
         "age": 29,
         "eyeColor": "brown",
@@ -28,7 +28,7 @@
     {
         "_id": "632dd9efaee1100acba221ae",
         "isActive": false,
-        "balance": "3,498.98",
+        "balance": "5000",
         "picture": "http://placehold.it/32x32",
         "age": 39,
         "eyeColor": "green",
@@ -41,7 +41,7 @@
     {
         "_id": "632dd9efeaf834ee2e039f54",
         "isActive": false,
-        "balance": "3,559.60",
+        "balance": "3000",
         "picture": "http://placehold.it/32x32",
         "age": 25,
         "eyeColor": "green",
@@ -54,7 +54,7 @@
     {
         "_id": "632dd9eff22489675e6b032d",
         "isActive": false,
-        "balance": "3,610.38",
+        "balance": "3000",
         "picture": "http://placehold.it/32x32",
         "age": 22,
         "eyeColor": "green",
@@ -67,7 +67,7 @@
     {
         "_id": "632dd9ef37f9d6e73c217a29",
         "isActive": true,
-        "balance": "2,156.37",
+        "balance": "1000",
         "picture": "http://placehold.it/32x32",
         "age": 24,
         "eyeColor": "blue",
@@ -80,7 +80,7 @@
     {
         "_id": "632dd9ef1777461f745dc7ac",
         "isActive": true,
-        "balance": "2,037.81",
+        "balance": "2000",
         "picture": "http://placehold.it/32x32",
         "age": 35,
         "eyeColor": "blue",
