@@ -1,11 +1,15 @@
 import React from 'react';
-import { setDataToLocalStorage } from '../../utilities/localStorageManage';
+import { setDataToLocalStorage, removeDataFromLocalStorage } from '../../utilities/localStorageManage';
 
 const ShowData = (props) => {
     const { name, age, email, balance, _id } = props.myData;
 
     const handleAddToCard = (id) => {
         setDataToLocalStorage(id)
+    }
+
+    const removeItemFromCart = (id) => {
+        removeDataFromLocalStorage(id)
     }
     return (
         <div>
@@ -14,6 +18,7 @@ const ShowData = (props) => {
             <p>Email : {email}</p>
             <p>Amount : {balance}</p>
             <button onClick={() => { handleAddToCard(_id) }}>Add To Card</button>
+            <button onClick={() => { removeItemFromCart(_id) }}>Remove </button>
         </div>
     );
 };

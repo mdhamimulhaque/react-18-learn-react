@@ -12,14 +12,12 @@ const setDataToLocalStorage = (id) => {
 
     // =============> advanced way <=================
     //===============================================
-    let shoppingCart;
+    let shoppingCart = {};
 
     // ---> get items'
     const storeCart = localStorage.getItem('shopping-cart');
     if (storeCart) {
         shoppingCart = JSON.parse(storeCart)
-    } else {
-        shoppingCart = {};
     }
 
 
@@ -34,18 +32,24 @@ const setDataToLocalStorage = (id) => {
 
     localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
 
-
-
-
-    // localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
-    // const quantity = localStorage.getItem(id)
-    // if (quantity) {
-    //     let newQuantity = parseInt(quantity) + 1;
-    //     // localStorage.setItem(id, newQuantity)
-    // } else {
-    //     // localStorage.setItem(id, 1)
-    // }
-
 }
 
-export { setDataToLocalStorage }
+
+
+
+// =====> remove from local storage
+const removeDataFromLocalStorage = (id) => {
+    const storeCart = localStorage.getItem('shopping-cart');
+    if (storeCart) {
+        const shoppingCart = JSON.parse(storeCart);
+        if (id in shoppingCart) {
+            delete shoppingCart[id]
+            localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart))
+        }
+    }
+}
+
+export {
+    setDataToLocalStorage,
+    removeDataFromLocalStorage
+}
